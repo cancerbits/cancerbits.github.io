@@ -96,6 +96,18 @@ mark {
   background: #ff0;
   color: #000; }
 
+.team .boxed-content img {
+	height: 96px;
+	width: auto;
+}
+
+.team .boxed-content {
+	margin: 1em;
+	height: 228px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
 code,
 kbd,
 pre,
