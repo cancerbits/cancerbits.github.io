@@ -26,6 +26,7 @@ audio,
 canvas,
 video {
   display: inline-block; }
+  
 
 audio:not([controls]) {
   display: none;
@@ -240,6 +241,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
   line-height: normal; }
 
+.timeline-Tweet-text {
+  font-family: "Roboto", "Open Sans", sans-serif  !important;
+  font-size: inherit !important;
+  line-height: 1.5 !important;
+}
+
+.arr { height: 100%; background-image: url("../images/arr.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 16px;}
+.ystrip { background: url("../images/ystrip.png") repeat-x left top; }
+			
 hr {
   border: none;
   border-bottom: 1px solid #777; }
@@ -254,7 +264,8 @@ ul, ol {
 
 a {
   text-decoration: none;
-  color: #E7A723; 
+  font-weight: 125%;
+  color: #ecc700; 
 }
 
 address {
