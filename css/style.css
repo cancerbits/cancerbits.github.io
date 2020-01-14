@@ -233,7 +233,7 @@ html {
 body {
   color: #3e3e3e;
   font-family: "Roboto", "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1247,7 +1247,7 @@ a.branding {
         font-size: 13px;
         font-size: 0.8666666667em;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: 500;
         padding: 32px 20px;
         display: block;
         color: #8e8e8e;
@@ -1320,7 +1320,7 @@ a.branding {
     .hero .slide-content .slide-title {
       font-size: 60px;
       font-size: 4em;
-      font-weight: 300; }
+      font-weight: 400; }
     .hero .slide-content p {
       font-size: 24px;
       font-size: 1.6em; }
@@ -1383,7 +1383,7 @@ a.branding {
   .page-head .page-title {
     font-size: 60px;
     font-size: 4em;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 0 10px; }
   .page-head small {
     font-size: 18px;
@@ -1395,7 +1395,7 @@ a.branding {
 .section-title {
   font-size: 30px;
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px; }
 
 .feature {
@@ -1410,7 +1410,7 @@ a.branding {
   .feature .feature-title {
     font-size: 30px;
     font-size: 2em;
-    font-weight: 300; }
+    font-weight: 400; }
   .feature p {
     font-size: 16px;
     font-size: 1.0666666667em;
@@ -1433,7 +1433,7 @@ a.branding {
   .post .entry-title {
     font-size: 24px;
     font-size: 1.6em;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 0 10px; }
   .post .date {
     display: block;
@@ -1441,7 +1441,7 @@ a.branding {
     font-size: 11px;
     font-size: 0.7333333333em; }
 	.post a {
-		font-weight: 400;
+		font-weight: 500;
 	}
   
 
@@ -1451,7 +1451,7 @@ a.branding {
   .cta .cta-title {
     font-size: 60px;
     font-size: 4em;
-    font-weight: 300; }
+    font-weight: 400; }
   .cta p {
     font-size: 24px;
     font-size: 1.6em; }
@@ -1465,7 +1465,7 @@ a.branding {
   .subscribe-form h2 {
     font-size: 24px;
     font-size: 1.6em;
-    font-weight: 300;
+    font-weight: 400;
     display: inline-block;
     vertical-align: middle;
     margin: 0 20px 0 0; }
@@ -1508,7 +1508,7 @@ a.branding {
   .team .team-name {
     font-size: 16px;
     font-size: 1.0666666667em;
-    font-weight: 400; }
+    font-weight: 500; }
   .team .social-links a {
     background: white;
     border: none;
@@ -1537,7 +1537,7 @@ a.branding {
     text-align: center;
     line-height: 2; }
   .checked-box h3 {
-    font-weight: 300;
+    font-weight: 400;
     color: #E7A723;
     margin-bottom: 10px; }
 
@@ -1561,7 +1561,7 @@ ol.circle {
       line-height: 2;
       font-size: 30px;
       font-size: 2em;
-      font-weight: 400;
+      font-weight: 500;
       position: absolute;
       top: 0;
       left: 0;
@@ -1569,7 +1569,7 @@ ol.circle {
     ol.circle li h3 {
       font-size: 16px;
       font-size: 1.0666666667em;
-      font-weight: 400;
+      font-weight: 500;
       color: #E7A723;
       margin-bottom: 10px; }
 
@@ -1597,7 +1597,7 @@ ol.circle {
         font-size: 1em;
         font-style: italic; }
       .testimonial-list li blockquote cite {
-        font-weight: 400;
+        font-weight: 500;
         font-style: normal; }
 
 .boxed-icon {
@@ -1623,7 +1623,7 @@ ol.circle {
         display: block;
         text-align: center; } }
   .boxed-icon h3 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 30px;
     font-size: 2em; }
 
@@ -1664,7 +1664,7 @@ ol.circle {
     .project-list .project .project-title {
       font-size: 18px;
       font-size: 1.2em;
-      font-weight: 300; }
+      font-weight: 400; }
 
 figure {
   margin-bottom: 30px; }
@@ -1716,7 +1716,7 @@ figure {
   .widget .widget-title {
     font-size: 19px;
     font-size: 1.2666666667em;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px; }
   .widget address {
     margin: 20px 0; }
