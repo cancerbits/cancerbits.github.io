@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-505.77328"
-     inkscape:cy="-262.91613"
+     inkscape:cx="-1168.6304"
+     inkscape:cy="-287.20184"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -38,8 +38,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1" />
@@ -62,7 +62,9 @@
      transform="translate(-64.271561,-39.991799)">
     <g
        transform="translate(-82.877982,0.35298302)"
-       id="g2755">
+       id="g2755"
+       inkscape:export-xdpi="170.72014"
+       inkscape:export-ydpi="170.72014">
       <circle
          r="19.439154"
          cy="59.277969"
