@@ -1,0 +1,11 @@
+section: other
+order: 25
+year: 2018
+authorsHtml: Pham HTT, Maurer B, Prchal-Murphy M, Grausenburger R, Grundschober E, Javaheri T, Nivarthi H, Boersma A, Kolbe T, Elabd M, <u>Halbritter F</u>, Pencik J, Kazemi Z, Grebien F, Hengstschläger M, Kenner L, Kubicek S, Farlik M, Bock C, et al.
+title: STAT5B N642H is a driver mutation for T cell neoplasia
+venue: Journal of Clinical Investigation
+highlighted: false
+doi: https://doi.org/10.1172/JCI94509
+links:
+- label: DOI
+  url: https://doi.org/10.1172/JCI94509

@@ -1,0 +1,13 @@
+section: other
+order: 26
+year: 2018
+authorsHtml: Festuccia N, <u>Halbritter F</u>, Corsinotti A, Gagliardi A, Colby D, Tomlinson SR, Chambers I
+title: Esrrb extinction triggers dismantling of naïve pluripotency and marks commitment to differentiation
+venue: EMBO Journal
+highlighted: true
+doi: https://doi.org/10.15252/embj.201695476
+links:
+- label: DOI
+  url: https://doi.org/10.15252/embj.201695476
+- label: 'Data: GSE118907'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118907

@@ -1,0 +1,19 @@
+section: main
+order: 6
+year: 2019
+authorsHtml: <u>Halbritter F<sup>*</sup></u>, Farlik M<sup>*</sup>, Schwentner R, Jug G, Fortelny N, Schnöller T, <u>Pisa H</u>, Schuster LC, Reinprecht A, Czech T, Gojo J, Holter W, Minkov M, Bauer WM, Simonitsch-Klupp I, Bock C<sup>#</sup>, Hutter C<sup>#</sup>
+title: Epigenomics and single-cell sequencing define a developmental hierarchy in Langerhans cell histiocytosis
+venue: Cancer Discovery
+highlighted: true
+doi: https://doi.org/10.1158/2159-8290.CD-19-0138
+links:
+- label: DOI
+  url: https://doi.org/10.1158/2159-8290.CD-19-0138
+- label: Website
+  url: http://lch-hierarchy.computational-epigenetics.org/
+- label: Code
+  url: https://github.com/cancerbits/lch_hierarchy
+- label: 'Data: GSE133706'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133706
+- label: Press@CCRI
+  url: https://www.ccri.at/2019/07/25/an-unexpected-developmental-hierarchy-in-an-unusual-disease/

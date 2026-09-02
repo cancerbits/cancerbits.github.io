@@ -1,0 +1,13 @@
+section: other
+order: 12
+year: 2023
+authorsHtml: Kostel Bal S, Giuliani S, Block J, Repiscak P, <u>Hafemeister C</u>, Shahin T, Kasap N, Ransmayr B, Miao Y, van de Wetering C, Frohne A, Jimenez-Heredia R, Schuster MK, Zoghi S, Hertlein V, Thian M, Bykov A, Babayeva R, Eltan SB, Karakoc-Aydiner E, Shaw LE, Chowdury I, Varjosalo M, Argüello RJ, Farlik M, Ozen A, Serfling EAE, Dupré L, Bock C, <u>Halbritter F</u>, Hannich JT, Castanon I, Kraakman MJ, Baris S, Boztug K
+title: Biallelic NFATC1 mutations cause an inborn error of immunity with impaired CD8+ T-cell function and perturbed glycolysis
+venue: Blood
+highlighted: true
+doi: https://doi.org/10.1182/blood.2022018303
+links:
+- label: DOI
+  url: https://doi.org/10.1182/blood.2022018303
+- label: Code
+  url: https://github.com/cancerbits/kostelbal2023_nfatc1

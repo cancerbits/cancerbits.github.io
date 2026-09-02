@@ -1,0 +1,13 @@
+section: other
+order: 18
+year: 2021
+authorsHtml: Eder SK, Schwentner R, Ben Soussia P, Abagnale G, Attarbaschi A, Minkov M, <u>Halbritter F</u>, Hutter C
+title: Vemurafenib acts as molecular on-off switch governing systemic inflammation in Langerhans cell histiocytosis
+venue: Blood Advances
+highlighted: true
+doi: https://doi.org/10.1182/bloodadvances.2021005442
+links:
+- label: DOI
+  url: https://doi.org/10.1182/bloodadvances.2021005442
+- label: 'Data: GSE175480'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE175480

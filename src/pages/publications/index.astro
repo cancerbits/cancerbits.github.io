@@ -1,0 +1,51 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import PublicationItem from '../../components/PublicationItem.astro';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('publications');
+const bySection = (section: 'preprint' | 'main' | 'other') =>
+  all.filter((p) => p.data.section === section).sort((a, b) => a.data.order - b.data.order);
+
+const preprints = bySection('preprint');
+const main = bySection('main');
+const other = bySection('other');
+---
+
+<PageLayout
+  title="Publications"
+  bannerTitle="Publications & Resources"
+  bannerImage="/images/banner4.png"
+  description="Publications from the Developmental Cancer Genomics group, including preprints, main contributions, and collaborative work."
+>
+  <p class="text-ink-700">
+    Full publication lists:
+    <a href="https://scholar.google.at/citations?user=kvN5U0IAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>,
+    <a href="https://orcid.org/0000-0003-2452-4784" target="_blank" rel="noopener noreferrer">ORCID</a>
+  </p>
+  <p class="mt-2 text-sm text-ink-500">
+    Lab members <span class="lab-member">underlined</span>. *,# mark equal contributions.
+  </p>
+
+  <h2 class="mt-10 text-2xl font-semibold text-ink-900 section-heading">Current preprints</h2>
+  <div class="mt-4 [&_p]:pl-8 [&_p]:-indent-8">
+    {preprints.map((pub) => (
+      <PublicationItem pub={pub.data} />
+    ))}
+  </div>
+
+  <h2 class="mt-12 text-2xl font-semibold text-ink-900 section-heading">Main contributions</h2>
+  <p class="mt-1 text-sm text-ink-500">(first | last authorship)</p>
+  <div class="mt-4 [&_p]:pl-8 [&_p]:-indent-8">
+    {main.map((pub) => (
+      <PublicationItem pub={pub.data} />
+    ))}
+  </div>
+
+  <h2 class="mt-12 text-2xl font-semibold text-ink-900 section-heading">Other contributions</h2>
+  <div class="mt-4 [&_p]:pl-8 [&_p]:-indent-8">
+    {other.map((pub) => (
+      <PublicationItem pub={pub.data} />
+    ))}
+  </div>
+</PageLayout>

@@ -1,0 +1,13 @@
+section: other
+order: 9
+year: 2024
+authorsHtml: Buri MC, <u>Shoeb MR</u>, Bykov A, Repiscak P, Baik H, Dupanovic A, David FO, Kovacic B, Hall-Glenn F, Dopa S, Urbanus J, Sippl L, Stofner S, Emminger D, Cosgrove J, Schinnerl D, Poetsch AR, Lehner M, Koenig X, Perié L, Schumacher TN, Gotthardt D, <u>Halbritter F</u>, Putz EM
+title: Natural killer cell–mediated cytotoxicity shapes the clonal evolution of B cell leukaemia
+venue: Cancer Immunology Research
+highlighted: true
+doi: https://doi.org/10.1158/2326-6066.CIR-24-0189
+links:
+- label: DOI
+  url: https://doi.org/10.1158/2326-6066.CIR-24-0189
+- label: Code
+  url: https://github.com/TumorImmunoEditingLab/NK_tumor_resistance

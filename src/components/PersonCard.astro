@@ -1,0 +1,71 @@
+---
+import Icon from './Icon.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  person: CollectionEntry<'people'>['data'];
+}
+const { person } = Astro.props;
+
+const linkIcons: Record<string, string> = {
+  github: 'github',
+  googleScholar: 'google',
+  linkedin: 'linkedin',
+  orcid: 'orcid',
+  twitter: 'twitter',
+  researchgate: 'researchgate',
+};
+const linkLabels: Record<string, string> = {
+  github: 'GitHub',
+  googleScholar: 'Google Scholar',
+  linkedin: 'LinkedIn',
+  orcid: 'ORCID',
+  twitter: 'Twitter / X',
+  researchgate: 'ResearchGate',
+};
+---
+
+<div class="rounded-xl border border-ink-100 bg-white p-5 text-center shadow-sm transition hover:shadow-md card-hover">
+  {person.placeholder ? (
+    <div class="flex h-24 w-24 items-center justify-center rounded-full bg-brand-50 text-brand-300 mx-auto">
+      <Icon name="star" class="h-8 w-8" />
+    </div>
+  ) : person.photo ? (
+    <img
+      src={person.photo}
+      alt={person.name}
+      class="mx-auto h-24 w-24 rounded-full object-cover"
+      loading="lazy"
+    />
+  ) : (
+    <div class="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-brand-100 text-2xl font-semibold text-brand-700">
+      {person.name.split(' ').map((p: string) => p[0]).slice(0, 2).join('')}
+    </div>
+  )}
+
+  <h4 class="mt-4 text-base font-semibold text-ink-900">{person.name}</h4>
+  <p class="mt-1 text-sm text-ink-600">{person.role}</p>
+
+  {person.placeholder && (
+    <a href="/join/" class="btn mt-3">Current vacancies</a>
+  )}
+
+  {!person.placeholder && person.links && Object.keys(person.links).length > 0 && (
+    <div class="mt-3 flex justify-center gap-3">
+      {Object.entries(person.links).map(([key, url]) =>
+        url ? (
+          <a
+            href={url as string}
+            aria-label={linkLabels[key] ?? key}
+            title={linkLabels[key] ?? key}
+            class="text-ink-500 no-underline transition hover:text-brand-600"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name={linkIcons[key] ?? 'external'} class="h-4 w-4" />
+          </a>
+        ) : null
+      )}
+    </div>
+  )}
+</div>

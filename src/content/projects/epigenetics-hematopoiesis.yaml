@@ -1,0 +1,12 @@
+title: Epigenetics of hematopoiesis
+image: https://www.cell.com/cms/attachment/1b7f4028-28a2-4033-befa-e8c28d0a1a67/fx1.jpg
+description: >-
+  The hierarchical development of the human blood system is a fascinating
+  process. In the Blueprint Consortium, we mapped epigenetic (DNA
+  methylation) changes during hematopoiesis globally.
+order: 9
+links:
+  - label: Read the paper
+    url: http://dx.doi.org/10.1016/j.stem.2016.10.019
+  - label: Get the data
+    url: http://blueprint-methylomes.computational-epigenetics.org/

@@ -1,0 +1,19 @@
+title: Regulation of pluripotency
+image: https://www.cell.com/cms/attachment/11bc157a-0350-455f-b9b5-a911da0ba48d/gr1.jpg
+description: >-
+  We have investigated multiple core regulators of mammalian pluripotency
+  to discover what makes ESCs tick.
+order: 12
+links:
+  - label: Esrrb
+    url: https://doi.org/10.1016/j.stem.2012.08.002
+  - label: Oct4/Nanog
+    url: https://doi.org/10.1016/j.stem.2013.04.023
+  - label: Sox2/Oct
+    url: https://doi.org/10.15252/embr.201540467
+  - label: Sox2/Nanog
+    url: http://emboj.embopress.org/cgi/pmidlookup?view=long&pmid=23892456
+  - label: Sox
+    url: https://doi.org/10.7554/eLife.27746
+  - label: Esrrb-loss
+    url: https://doi.org/10.15252/embj.201695476

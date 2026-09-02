@@ -1,0 +1,12 @@
+title: CNAs in neuroblastoma
+image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-024-47945-7/MediaObjects/41467_2024_47945_Fig1_HTML.png?as=webp
+description: >-
+  Many pediatric cancers are associated with copy number alterations (CNAs).
+  Making use of the Tsakiridis lab's stem cell model of the trunk neural
+  crest, we investigated their role in neuroblastoma tumorigenesis.
+order: 2
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1038/s41467-024-47945-7
+  - label: Get the code / data
+    url: https://github.com/cancerbits/saldana_montano2024_ncnb

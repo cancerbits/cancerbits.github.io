@@ -1,0 +1,11 @@
+section: other
+order: 3
+year: 2026
+authorsHtml: Akagha MJ, Georgolopoulos G, Martin D, Meissl K, Amenitsch L, Vogl C, Farlik M, Fortelny N, <u>Halbritter F</u>, Müller M, Decker T, Strobl B
+title: IFNγ shapes macrophage inflammatory responses by STAT1 isoform-specific epigenetic and transcriptional mechanisms
+venue: BMC Genomics
+highlighted: false
+doi: https://doi.org/10.1186/s12864-026-12601-5
+links:
+- label: DOI
+  url: https://doi.org/10.1186/s12864-026-12601-5

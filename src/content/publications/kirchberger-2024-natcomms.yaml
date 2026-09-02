@@ -1,0 +1,17 @@
+section: main
+order: 4
+year: 2024
+authorsHtml: Kirchberger S<sup>*</sup>, <u>Shoeb MR<sup>*</sup></u>, Lazic D, Wenninger-Weinzierl A, Fischer K, Shaw LE, Nogueira F, Rifatbegovic F, Bozsaky E, Ladenstein R, Bodenmiller B, Lion T, Traver D, Farlik M, Schöfer C, Taschner-Mandl S, <u>Halbritter F<sup>#</sup></u>, Distel M<sup>#</sup>
+title: Cross-species analysis identifies conserved transcriptional mechanisms of neutrophil maturation
+venue: Nature Communications
+highlighted: true
+doi: https://doi.org/10.1038/s41467-024-45802-1
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s41467-024-45802-1
+- label: Code
+  url: https://github.com/cancerbits/Kirchberger_Shoeb2024_neut
+- label: Code Archive
+  url: https://doi.org/10.5281/zenodo.10475407
+- label: 'Data: GSE252788'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252788

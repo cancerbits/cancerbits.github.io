@@ -1,0 +1,21 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import PageBanner from '../components/PageBanner.astro';
+
+interface Props {
+  title: string;
+  bannerTitle?: string;
+  subtitle?: string;
+  bannerImage?: string;
+  description?: string;
+}
+
+const { title, bannerTitle, subtitle, bannerImage, description } = Astro.props;
+---
+
+<BaseLayout title={title} description={description}>
+  <PageBanner title={bannerTitle ?? title} subtitle={subtitle} image={bannerImage} />
+  <div class="mx-auto max-w-content px-4 py-10 sm:px-6 sm:py-14">
+    <slot />
+  </div>
+</BaseLayout>

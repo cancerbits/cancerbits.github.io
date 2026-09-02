@@ -1,0 +1,11 @@
+section: other
+order: 19
+year: 2021
+authorsHtml: Kollmann S, Grausenburger R, Klampfl T, Prchal-Murphy M, Bastl K, <u>Pisa H</u>, Knab VM, Brandstoetter T, Doma E, Sperr WR, Lagger S, Farlik M, Moriggl R, Valent P, <u>Halbritter F</u>, Kollmann K, Heller G, Maurer B, Sexl V
+title: A STAT5B-CD9 axis determines self-renewal in hematopoietic and leukemic stem cells
+venue: Blood
+highlighted: false
+doi: https://doi.org/10.1182/blood.2021010980
+links:
+- label: DOI
+  url: https://doi.org/10.1182/blood.2021010980

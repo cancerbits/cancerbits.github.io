@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-ink-800 antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold text-ink-900;
+  }
+
+  a {
+    @apply text-brand-600 underline-offset-2 hover:text-brand-700;
+  }
+}
+
+@layer components {
+  /* Underline used to mark current/former lab members in author lists,
+     mirroring the original site's convention. */
+  .lab-member {
+    @apply underline decoration-brand-400 decoration-2;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-1.5 rounded-md bg-brand-600 px-3.5 py-1.5 text-sm font-medium text-white no-underline shadow-sm transition hover:bg-brand-700 hover:text-white;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-brand-300 bg-white px-3.5 py-1.5 text-sm font-medium text-brand-700 no-underline shadow-sm transition hover:border-brand-500 hover:bg-brand-50;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full bg-accent-100 px-2.5 py-0.5 text-xs font-medium text-accent-800;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply relative inline-block pb-2;
+  }
+  .section-heading::after {
+    content: '';
+    @apply absolute bottom-0 left-0 h-1 w-16 rounded-full bg-gradient-to-r from-brand-400 to-brand-600;
+  }
+}
+
+@layer components {
+  .card-hover {
+    @apply transition duration-200 ease-out hover:-translate-y-1 hover:shadow-lg;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative;
+  }
+  .nav-link::after {
+    content: '';
+    @apply absolute left-3 right-3 -bottom-0.5 h-0.5 origin-left scale-x-0 bg-brand-500 transition-transform duration-200;
+  }
+  .nav-link:hover::after {
+    @apply scale-x-100;
+  }
+}
+
+@layer components {
+  .bg-dot-grid {
+    background-image: radial-gradient(theme('colors.brand.200') 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+}

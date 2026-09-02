@@ -1,0 +1,47 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { site } from '../../data/site';
+---
+
+<PageLayout
+  title="Join us!"
+  bannerImage="/images/banner2.png"
+  description="Current vacancies and how to apply to join the Developmental Cancer Genomics group at St. Anna CCRI."
+>
+  <div class="prose max-w-none space-y-5 text-ink-700">
+    <p>Thank you for your interest in joining our team.</p>
+
+    <p>
+      A list of all current vacancies is available here:
+      <a href={site.jobsUrl} target="_blank" rel="noopener noreferrer">{site.jobsUrl}</a>
+    </p>
+
+    <p>
+      No current vacancies? We are always open to reviewing applications from exceptionally motivated, creative
+      <strong>computational biologists</strong> with a solid background in functional genomics data, programming
+      skills, and the drive to take control of their own research, or from
+      <strong>stem cell and cancer biologists</strong> with innovative ideas how to tackle open questions in 
+      genomics, developmental biology, and cancer. Before you <a href="/contact/">get in touch</a>, please think
+      carefully about what it is that attracts you to our group and what you would like to achieve by joining us.
+      We appreciate informal requests and personal(ized) applications. Mass emails and off-the-shelf applications
+      will be ignored.
+    </p>
+  </div>
+
+  <div class="mt-10">
+    <p class="text-ink-700">
+      Did you know? CCRI is based in
+      <a
+        href="https://www.independent.co.uk/travel/news-and-advice/vienna-best-city-live-quality-life-ranking-mercer-australia-europe-a8820396.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >beautiful Vienna, the best place to live on earth</a>.
+    </p>
+    <img
+      alt="Vienna cityscape"
+      class="mt-4 w-full rounded-xl"
+      loading="lazy"
+      src="https://lh3.googleusercontent.com/01ykVAYO1mvJRpfChONdAuQwhyauOt-8xCpfp9FNRh-gl-koEWt1KD5KkDuaQKbhQpkoITSfpKErJA6KSafomACykeGfTrNV2zbsQLnfI1Avz1Ze46k96eWEpyXvKFylZk7KlCjAwY5m7dhg2GpaetpwXJD4SdQ4H8t41n4PB85Ex4a1lg38CmP26PZXpwUuyST2L5QEDRFqQxcgHikGsPucNlpypoGx8nRB6zpgswVtpjY0ZdWAqnTAjFB9R0tkAfQVvh9gWOBiXZ1X2mCZ96MbBPwexfWpVw4i5tZ-z6P5mSHBbENZnwCvHW2CsuEPZfWkdW5heCeECu2dsq-tHC7DtyJWdfoIQyxlV8H-lfJ6XIwJzTuqVCsw9CZLNI3eUQvjybPf367VZ1eXyrc19hGzviT5b6UW3k6uJhvRgtqxvM93T6FgfKx4P-DdyhaQ9nS-MsIkTvYPB-Nb-VsvJGRAnhi-DtfY5lMqcuXVTgfHPdDg0m6ruMX6gD0FTNeAJBGfYd3Co32UNq2P-4NVV5Cje8OLoUaxVFMkU18G2wIxUoyrwvcgpENP79RckYCy1rM1TKVp7NmaDWxl-UPQipww--He4tnQ3SJv4hUaRLKuzL2GVczgAF1bUsorbF_1EDs0M--nZANFwHQbKxAAYuKXzxjV7N2bfS_yRqqJqZXF52MvewD7ap_zwq1pz5OuMhOCFMv1IYznOSIbegYtihiy=w1920-h321-no?authuser=0"
+    />
+  </div>
+</PageLayout>

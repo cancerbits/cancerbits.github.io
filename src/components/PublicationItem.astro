@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  pub: CollectionEntry<'publications'>['data'];
+}
+const { pub } = Astro.props;
+---
+
+<p class="mb-4 leading-relaxed text-ink-800 [&_u]:decoration-brand-400 [&_u]:decoration-2 [&_sup]:text-[0.7em]">
+  <Fragment set:html={pub.authorsHtml} />
+  {' '}{pub.title}.{' '}
+  <span class="font-semibold">{pub.venue}</span>.{' '}
+  {pub.year}.
+  {pub.doi && (
+    <>
+      {' '}
+      <a href={pub.doi} target="_blank" rel="noopener noreferrer">{pub.doi}</a>
+    </>
+  )}
+  {pub.links.filter((l) => l.label !== 'DOI').length > 0 && ' |'}
+  {pub.links
+    .filter((l) => l.label !== 'DOI')
+    .map((l, i, arr) => (
+      <>
+        {' '}
+        <a href={l.url} target="_blank" rel="noopener noreferrer">{l.label}</a>
+        {i < arr.length - 1 ? ' |' : ''}
+      </>
+    ))}
+</p>

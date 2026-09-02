@@ -1,0 +1,9 @@
+funder: FWF (ESPRIT)
+logo: https://www.fwf.ac.at/fileadmin/Website/Logos/FWF_Logo_Zusatz_Dunkelblau_RGB_EN.png
+description: We investigate developmental regulators in pediatric tumors.
+order: 2
+links:
+  - label: "Info/press: CCRI"
+    url: https://ccri.at/fwfs-esprit-program-supports-research-on-%ce%b2-catenin-in-wilms-tumor/
+  - label: "Info/press: FWF"
+    url: https://doi.org/10.55776/ESP652

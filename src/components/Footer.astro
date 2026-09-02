@@ -1,0 +1,42 @@
+---
+import SocialLinks from './SocialLinks.astro';
+import ContactEmail from './ContactEmail.astro';
+import { site } from '../data/site';
+---
+
+<footer class="border-t border-ink-100 bg-ink-50">
+  <div class="mx-auto max-w-content px-4 py-10 sm:px-6">
+    <div class="grid gap-8 sm:grid-cols-3">
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-ink-500">Our address</h3>
+        <p class="mt-2 font-semibold text-ink-900">{site.labName}</p>
+        <p class="text-sm text-ink-600">{site.piLabName}</p>
+        <address class="mt-1 text-sm not-italic text-ink-600">
+          {site.address.institute}<br />
+          {site.address.street}, {site.address.city}
+        </address>
+        <p class="mt-2 text-sm text-ink-600"><ContactEmail /></p>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-ink-500">Our host</h3>
+        <a href={site.host.url} class="mt-2 inline-block">
+          <img src={site.host.logo} alt={site.host.name} class="h-14 w-auto" />
+        </a>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-ink-500">On the web</h3>
+        <p class="mt-2 text-sm text-ink-600">Other presence of the lab and members.</p>
+        <SocialLinks class="mt-3" />
+      </div>
+    </div>
+
+    <hr class="my-8 border-ink-200" />
+
+    <p class="text-center text-xs text-ink-500">
+      Copyright {site.copyrightYear} {site.copyrightName}. Built with
+      <a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a> &amp; Tailwind CSS.
+    </p>
+  </div>
+</footer>

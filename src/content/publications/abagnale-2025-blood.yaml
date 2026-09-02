@@ -1,0 +1,13 @@
+section: other
+order: 8
+year: 2025
+authorsHtml: Abagnale G, Schwentner R, Ben Soussia-Weiss P, van Midden W, Sturtzel C, Pötschger U, Rados M, Taschner-Mandl S, Simonitsch-Klupp I, <u>Hafemeister C</u>, <u>Halbritter F</u>, Distel M, Eder SK, Hutter C
+title: BRAFV600E induces key features of LCH in iPSCs with cell type-specific phenotypes and drug responses
+venue: Blood
+highlighted: true
+doi: https://doi.org/10.1182/blood.2024026066
+links:
+- label: DOI
+  url: https://doi.org/10.1182/blood.2024026066
+- label: 'Data: GSE270891'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270891

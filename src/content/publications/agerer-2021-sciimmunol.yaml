@@ -1,0 +1,15 @@
+section: other
+order: 21
+year: 2021
+authorsHtml: Agerer B<sup>*</sup>, Koblischke M<sup>*</sup>, Gudipati V<sup>*</sup>, <u>Montaño-Gutierrez LF</u>, Smyth M, Popa A, Genger JW, Endler L, Florian DM, Mühlgrabner V, Graninger M, Aberle SW, Husa AM, Shaw LE, Lercher A, Gattinger P, Torralba-Gombau R, Trapin D, Penz T, et al.
+title: SARS-CoV-2 mutations in MHC-I-restricted epitopes evade CD8+ T cell responses
+venue: Science Immunology
+highlighted: true
+doi: https://doi.org/10.1126/sciimmunol.abg6461
+links:
+- label: DOI
+  url: https://doi.org/10.1126/sciimmunol.abg6461
+- label: Code
+  url: https://github.com/cancerbits/agerer2021_covid_epitopes
+- label: 'Data: GSE166651'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166651

@@ -1,0 +1,13 @@
+section: main
+order: 13
+year: 2012
+authorsHtml: <u>Halbritter F</u>, Vaidya HJ, Tomlinson SR
+title: 'GeneProf: Analysis of high-throughput sequencing experiments'
+venue: Nature Methods
+highlighted: true
+doi: https://doi.org/10.1038/nmeth.1809
+links:
+- label: DOI
+  url: https://doi.org/10.1038/nmeth.1809
+- label: Web service
+  url: http://www.geneprof.org/

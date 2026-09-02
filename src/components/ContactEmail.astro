@@ -1,0 +1,28 @@
+---
+import { site } from '../data/site';
+
+interface Props {
+  class?: string;
+  label?: string;
+}
+const { class: className = '', label } = Astro.props;
+---
+
+<span
+  class={`contact-email ${className}`}
+  data-user={site.email.user}
+  data-domain={site.email.domain}
+>{label ?? 'Loading…'}</span>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.contact-email').forEach((el) => {
+    const user = el.dataset.user;
+    const domain = el.dataset.domain;
+    if (!user || !domain) return;
+    const address = `${user}@${domain}`;
+    const a = document.createElement('a');
+    a.href = `mailto:${address}`;
+    a.textContent = address;
+    el.replaceWith(a);
+  });
+</script>

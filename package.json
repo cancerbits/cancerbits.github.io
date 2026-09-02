@@ -1,0 +1,24 @@
+{
+  "name": "cancerbits.github.io",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab website of the Developmental Cancer Genomics group (Halbritter Lab) at St. Anna Children's Cancer Research Institute (CCRI), Vienna.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "build:no-check": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.16.10"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.2",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}

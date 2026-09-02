@@ -1,0 +1,17 @@
+section: main
+order: 5
+year: 2021
+authorsHtml: Santini L<sup>*</sup>, <u>Halbritter F<sup>*</sup></u>, Titz-Teixeira F, Suzuki T, Asami M, Ramesmayer J, Ma X, Lackner A, Warr N, Pauler F, Hippenmeyer S, Laue E, Farlik M, Bock C, Beyer A, Perry ACF, Leeb M
+title: Novel imprints in mouse blastocysts are predominantly DNA methylation independent
+venue: Nature Communications
+highlighted: true
+doi: https://doi.org/10.1038/s41467-021-23510-4
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s41467-021-23510-4
+- label: Code
+  url: https://github.com/cancerbits/santini2021_imprints
+- label: 'Data: GSE152106'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152106
+- label: Press@CCRI
+  url: https://www.ccri.at/2021/06/21/hot-off-the-press-a-new-role-for-histone-modifications-in-genomic-imprinting/

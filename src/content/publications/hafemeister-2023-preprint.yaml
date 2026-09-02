@@ -1,0 +1,11 @@
+section: preprint
+order: 3
+year: 2023
+authorsHtml: <u>Hafemeister C</u>, <u>Halbritter F</u>
+title: Single-cell RNA-seq differential expression tests within a sample should use pseudo-bulk data of pseudo-replicates
+venue: bioRxiv
+highlighted: false
+doi: https://doi.org/10.1101/2023.03.28.534443
+links:
+- label: DOI
+  url: https://doi.org/10.1101/2023.03.28.534443

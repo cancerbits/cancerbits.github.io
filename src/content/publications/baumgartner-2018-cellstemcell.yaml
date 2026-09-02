@@ -1,0 +1,13 @@
+section: other
+order: 24
+year: 2018
+authorsHtml: Baumgartner C, Toifl S, Farlik M, <u>Halbritter F</u>, Scheicher R, Fischer I, Sexl V, Bock C, Baccarini M
+title: An ERK-Dependent Feedback Mechanism Prevents Hematopoietic Stem Cell Exhaustion
+venue: Cell Stem Cell
+highlighted: true
+doi: https://doi.org/10.1016/j.stem.2018.05.003
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.stem.2018.05.003
+- label: 'Data: GSE112842'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112842

@@ -1,0 +1,12 @@
+title: Biomarker benchmark
+image: /images/bock2016.png
+description: >-
+  DNA methylation is a stable epigenetic mark well suited for biomarker
+  assays. We conducted a large benchmark with 16 labs worldwide to compare
+  platforms for clinical translation.
+order: 11
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1038/nbt.3605
+  - label: Get the code
+    url: https://github.com/epigen/methylation-biomarker-benchmark

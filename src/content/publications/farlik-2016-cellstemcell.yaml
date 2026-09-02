@@ -1,0 +1,17 @@
+section: main
+order: 11
+year: 2016
+authorsHtml: Farlik M<sup>*</sup>, <u>Halbritter F<sup>*</sup></u>, Müller F<sup>*</sup>, Choudry FA, Ebert P, Klughammer J, Farrow S, Santoro A, Ciaurro V, Mathur A, Uppal R, Stunnenberg HG, Ouwehand WH, Laurenti E, Lengauer T, Frontini M<sup>#</sup>, Bock C<sup>#</sup>
+title: DNA Methylation Dynamics of Human Hematopoietic Stem Cell Differentiation
+venue: Cell Stem Cell
+highlighted: true
+doi: https://doi.org/10.1016/j.stem.2016.10.019
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.stem.2016.10.019
+- label: Website
+  url: http://blueprint-methylomes.computational-epigenetics.org/
+- label: 'Data: GSE87196'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87196
+- label: Press@CeMM
+  url: https://cemm.at/news/n/beyond-the

@@ -1,0 +1,15 @@
+section: main
+order: 7
+year: 2018
+authorsHtml: Barakat TS<sup>*</sup>, <u>Halbritter F<sup>*</sup></u>, Zhang M, Rendeiro AF, Perenthaler E, Bock C, Chambers I
+title: Functional Dissection of the Enhancer Repertoire in Human Embryonic Stem Cells
+venue: Cell Stem Cell
+highlighted: true
+doi: https://doi.org/10.1016/j.stem.2018.06.014
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.stem.2018.06.014
+- label: Website
+  url: http://hesc-enhancers.computational-epigenetics.org/
+- label: 'Data: GSE99631'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631

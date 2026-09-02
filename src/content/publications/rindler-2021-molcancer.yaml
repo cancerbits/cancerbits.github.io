@@ -1,0 +1,13 @@
+section: other
+order: 17
+year: 2021
+authorsHtml: Rindler K, Jonak C, Alkon N, Thaler FM, Kurz H, Shaw LE, Stingl G, Weninger W, <u>Halbritter F</u>, Bauer WM, Farlik M, Brunner PM
+title: Single-cell RNA sequencing reveals markers of disease progression in primary cutaneous T-cell lymphoma
+venue: Molecular Cancer
+highlighted: true
+doi: https://doi.org/10.1186/s12943-021-01419-2
+links:
+- label: DOI
+  url: https://doi.org/10.1186/s12943-021-01419-2
+- label: 'Data: GSE173205'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173205

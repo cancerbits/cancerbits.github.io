@@ -1,0 +1,15 @@
+section: other
+order: 5
+year: 2025
+authorsHtml: Traxler P<sup>*</sup>, Reichl S<sup>*</sup>, Folkman L, Shaw L, Fife V, Nemc A, Pasajilic D, Kusienicka A, Barreca D, Fortelny N, Rendeiro AF, <u>Halbritter F</u>, Weninger W, Decker T, Farlik M<sup>#</sup>, Bock C<sup>#</sup>
+title: Integrated time-series analysis and high-content CRISPR screening delineate the dynamics of macrophage immune regulation
+venue: Cell Systems
+highlighted: true
+doi: https://doi.org/10.1016/j.cels.2025.101346
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.cels.2025.101346
+- label: Code
+  url: https://github.com/epigen/macrophage-regulation
+- label: 'Data: GSE263763'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263763

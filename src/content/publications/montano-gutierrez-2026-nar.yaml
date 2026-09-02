@@ -1,0 +1,17 @@
+section: main
+order: 1
+year: 2026
+authorsHtml: <u>Montano-Gutierrez LF<sup>*</sup></u>, Muller S<sup>*</sup>, Kutschat AP, Adameyko I, Seruggia D<sup>#</sup>, <u>Halbritter F<sup>#</sup></u>
+title: Directing stem cell differentiation by chromatin state approximation
+venue: Nucleic Acids Research
+highlighted: true
+doi: https://doi.org/10.1093/nar/gkag124
+links:
+- label: DOI
+  url: https://doi.org/10.1093/nar/gkag124
+- label: Code
+  url: https://github.com/cancerbits/montano_mueller2026_chromatin_approximation
+- label: 'Data: GSE291386'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE291386
+- label: Press@CCRI
+  url: https://ccri.at/guiding-stem-cells-step-by-step/

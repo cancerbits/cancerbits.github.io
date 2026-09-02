@@ -1,0 +1,13 @@
+section: other
+order: 27
+year: 2017
+authorsHtml: Corsinotti A<sup>*</sup>, Wong FCK<sup>*</sup>, Tatar T, Szczerbinska I, <u>Halbritter F</u>, Colby D, Gogolok S, Pantier R, Liggat K, Mirfazeli ES, Ponsele EH, Mullin NP, Wilson V, Chambers I
+title: Distinct SoxB1 networks are required for naïve and primed pluripotency
+venue: eLife
+highlighted: true
+doi: https://doi.org/10.7554/eLife.27746
+links:
+- label: DOI
+  url: https://doi.org/10.7554/eLife.27746
+- label: 'Data: GSE99185'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99185

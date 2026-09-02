@@ -1,0 +1,9 @@
+funder: WWTF
+logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbKPDvudd6gpp7RQ6dVsmuWeGaWjBIAfeV4hCdPf38&s
+description: We study genetic predisposition to tumor development.
+order: 0
+links:
+  - label: "Info/press: CCRI"
+    url: https://ccri.at/three-research-grants-to-strengthen-precision-medicine-por-pediatric-cancer-patients/
+  - label: "Info/press: WWTF"
+    url: https://www.wwtf.at/funding/programmes/ls/LS25-045/

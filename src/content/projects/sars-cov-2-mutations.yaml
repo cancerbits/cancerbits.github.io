@@ -1,0 +1,12 @@
+title: SARS-CoV-2 mutations
+image: https://www.science.org/cms/10.1126/sciimmunol.abg6461/asset/b9f726ae-294e-45f9-bf66-8b7f6ebd203e/assets/graphic/abg6461-f4.jpeg
+description: >-
+  Our small contribution to the pandemic: We teamed up with researchers at
+  CeMM and the Medical University of Vienna to investigate the effect of
+  SARS-CoV-2 mutations on CD8+ T cell immunity.
+order: 5
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1126/sciimmunol.abg6461
+  - label: Get the code / data
+    url: https://github.com/cancerbits/agerer2021_covid_epitopes

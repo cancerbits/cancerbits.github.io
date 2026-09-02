@@ -1,0 +1,12 @@
+title: Kinases & blood
+image: https://www.cell.com/cms/attachment/22d07242-eb1d-40e6-8e9d-7bbc0cc8bf9b/fx1.jpg
+description: >-
+  Cells are shaped by the enzymatic activity of kinases. Two recent
+  contributions implicate MAPK in blood stem cells, and JAK+Aurora in
+  mutant immune cells — with impacts on the transcriptome and epigenome.
+order: 8
+links:
+  - label: MEKi & HSCs
+    url: https://doi.org/10.1016/j.stem.2018.05.003
+  - label: STAT5 Neoplasia
+    url: https://doi.org/10.1172/JCI94509

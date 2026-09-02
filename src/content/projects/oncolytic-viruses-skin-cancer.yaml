@@ -1,0 +1,12 @@
+title: Oncolytic viruses in skin cancer
+image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43018-024-00879-x/MediaObjects/43018_2024_879_Fig3_HTML.png?as=webp
+description: >-
+  Basal cell carcinoma is the most common cancer worldwide. We participated
+  in the analysis of data from a clinical trial organized by the Hoeller lab
+  at the Medical University of Vienna.
+order: 4
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1038/s43018-024-00879-x
+  - label: Get the code / data
+    url: https://github.com/cancerbits/ressler2024_neobcc

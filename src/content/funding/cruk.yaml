@@ -1,0 +1,9 @@
+funder: Cancer Research UK
+logo: https://www.shrn.org.uk/wp-content/uploads/2020/09/CRUK-Logo.png
+description: We explore the effects of mutations in neuroblastoma.
+order: 1
+links:
+  - label: "Info/press: CCRI"
+    url: https://ccri.at/fwfs-esprit-program-supports-research-on-%ce%b2-catenin-in-wilms-tumor/
+  - label: "Info/press: Sheffield"
+    url: https://www.sheffield.ac.uk/biosciences/news/understanding-genetic-roots-aggressive-childhood-cancer-research-aims-improve-neuroblastoma

@@ -1,0 +1,12 @@
+title: Macrophage development
+image: https://www.researchgate.net/profile/Elvira-Mass/publication/305883959/figure/fig1/AS:558509357637632@1510170415010/Specification-of-tissue-resident-macrophages-Erythro-myeloid-progenitors-EMP-from-the.png
+description: >-
+  Tissue-resident macrophages are key players in immunity, development, and
+  homeostasis. We teamed up with the Geissmann and Schultze labs to trace
+  the embryonic origins of these cells.
+order: 10
+links:
+  - label: Read the paper
+    url: http://doi.org/10.1126/science.aaf4238
+  - label: Get the data
+    url: http://macrophage-development.computational-epigenetics.org/

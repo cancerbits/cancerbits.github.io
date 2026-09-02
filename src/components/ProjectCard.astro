@@ -1,0 +1,34 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>['data'];
+}
+const { project } = Astro.props;
+---
+
+<div class="flex flex-col overflow-hidden rounded-xl border border-ink-100 bg-white shadow-sm card-hover">
+  {project.image && (
+    <div class="aspect-[16/10] w-full overflow-hidden bg-ink-50">
+      <img
+        src={project.image}
+        alt={project.title}
+        class="h-full w-full object-cover"
+        loading="lazy"
+      />
+    </div>
+  )}
+  <div class="flex flex-1 flex-col p-5">
+    <h3 class="text-base font-semibold text-ink-900">{project.title}</h3>
+    <p class="mt-2 flex-1 text-sm text-ink-600">{project.description}</p>
+    {project.links.length > 0 && (
+      <div class="mt-4 flex flex-wrap gap-2">
+        {project.links.map((l) => (
+          <a href={l.url} target="_blank" rel="noopener noreferrer" class="btn-outline text-xs">
+            {l.label}
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</div>

@@ -1,0 +1,44 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { getCollection } from 'astro:content';
+import { alumni } from '../../data/alumni';
+import { collaborators } from '../../data/collaborators';
+
+const people = (await getCollection('people')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<PageLayout
+  title="People"
+  bannerImage="/images/banner5.png"
+  description="Meet the Developmental Cancer Genomics team at St. Anna CCRI, our alumni, and long-term collaborators."
+>
+  <h2 class="text-2xl font-semibold text-ink-900 section-heading">Team</h2>
+  <p class="mt-1 text-sm text-ink-500">(in order of appearance)</p>
+
+  <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    {people.map((person) => (
+      <PersonCard person={person.data} />
+    ))}
+  </div>
+
+  <h2 class="mt-14 text-2xl font-semibold text-ink-900 section-heading">Alumni</h2>
+  <ul class="mt-4 space-y-2 text-ink-700">
+    {alumni.map((a) => (
+      <li>
+        {a.years}, {a.name}{a.position ? ` (${a.position})` : ''}
+        {a.next && <>, next: {a.next}</>}
+      </li>
+    ))}
+  </ul>
+
+  <h2 class="mt-14 text-2xl font-semibold text-ink-900 section-heading">Current &amp; long-term collaborators</h2>
+  <p class="mt-1 text-sm text-ink-500">(alphabetical)</p>
+  <ul class="mt-4 grid gap-x-8 gap-y-2 text-ink-700 sm:grid-cols-2">
+    {collaborators.map((c) => (
+      <li>
+        <a href={c.url} target="_blank" rel="noopener noreferrer">{c.name}</a> @ {c.affiliation}, {c.topic}
+      </li>
+    ))}
+  </ul>
+</PageLayout>

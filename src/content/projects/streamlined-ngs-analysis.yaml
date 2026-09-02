@@ -1,0 +1,12 @@
+title: Streamlined NGS analysis
+image: https://www.ncbi.nlm.nih.gov/pmc/articles/instance/3965072/bin/gkt966f1p.jpg
+description: >-
+  To ease access and reuse of functional genomics data, we developed a
+  web-based software suite and database that streamlines NGS data
+  analysis.
+order: 13
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1038/nmeth.1809
+  - label: Read the other paper
+    url: https://doi.org/10.1093/nar/gkt966

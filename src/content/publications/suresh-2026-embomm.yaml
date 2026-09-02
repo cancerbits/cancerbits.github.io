@@ -1,0 +1,11 @@
+section: other
+order: 4
+year: 2026
+authorsHtml: Suresh V<sup>*</sup>, <u>Hafemeister C<sup>*</sup></u>, Konstantinou A, Grissenberger S, Sturtzel C, Zylka MM, Cidre-Aranaz F, Wenninger-Weinzierl A, Queiros K, Kurek D, Distel M, Obenauf A, Gruenewald TGP, <u>Halbritter F</u>, Kovar H<sup>#</sup>, Fock V<sup>#</sup>
+title: Modelling EWS::FLI1 protein fluctuations reveal determinants of tumor plasticity in Ewing sarcoma
+venue: EMBO Molecular Medicine
+highlighted: false
+doi: https://doi.org/10.1038/s44321-025-00364-7
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s44321-025-00364-7

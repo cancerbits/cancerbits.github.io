@@ -1,0 +1,15 @@
+section: other
+order: 15
+year: 2021
+authorsHtml: Shahin T, Mayr D, <u>Shoeb MR</u>, Kuehn HS, Hoeger B, Giuliani S, Gawriyski L, Yüce Petronczki Ö, Hadjadj J, Kostel Bal S, Zoghi S, Haimel M, Jimenez-Heredia R, Boutboul D, Triebwasser MP, Rialland-Battisti F, Costedoat-Chalumeau N, Quartier P, Tangye SG, Fleisher TA, Rezaei N, Romberg N, Latour S, Varjosalo M, <u>Halbritter F</u>, Rieux-Laucat F, Castanon I, Rosenzweig S, Boztug K
+title: Identification of Germline Monoallelic Mutations in IKZF2 in Patients with Immune Dysregulation
+venue: Blood Advances
+highlighted: true
+doi: https://doi.org/10.1182/bloodadvances.2021006367
+links:
+- label: DOI
+  url: https://doi.org/10.1182/bloodadvances.2021006367
+- label: Code
+  url: https://github.com/cancerbits/shahin2021_ikzf2_het
+- label: 'Data: EGAS00001005874'
+  url: https://ega-archive.org/studies/EGAS00001005874

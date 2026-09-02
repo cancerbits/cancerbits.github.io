@@ -1,0 +1,11 @@
+section: other
+order: 30
+year: 2013
+authorsHtml: Gagliardi A<sup>*</sup>, Mullin NP<sup>*</sup>, Ying Tan Z, Colby D, Kousa AI, <u>Halbritter F</u>, Weiss JT, Felker A, Bezstarosti K, Favaro R, Demmers J, Nicolis SK, Tomlinson SR, Poot RA, Chambers I
+title: A direct physical interaction between Nanog and Sox2 regulates embryonic stem cell self-renewal
+venue: EMBO Journal
+highlighted: false
+doi: https://doi.org/10.1038/emboj.2013.161
+links:
+- label: DOI
+  url: https://doi.org/10.1038/emboj.2013.161

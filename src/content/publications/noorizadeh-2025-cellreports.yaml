@@ -1,0 +1,15 @@
+section: other
+order: 6
+year: 2025
+authorsHtml: Noorizadeh R, Sax B, Javaheri T, Radic Sarikas B, Fock V, Kauer M, Bykov A, Suresh V, Schlederer M, Kenner L, Weber G, Mikulits W, <u>Halbritter F</u>, Moriggl R, Kovar H
+title: YAP1 is a key regulator of EWS::FLI1-dependent malignant transformation upon IGF-1 mediated reprogramming of bone mesenchymal stem cells
+venue: Cell Reports
+highlighted: true
+doi: https://doi.org/10.1016/j.celrep.2025.115381
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.celrep.2025.115381
+- label: Code
+  url: https://github.com/cancerbits/noorizadeh2025_ef_igf1_yap1
+- label: 'Data: GSE269007'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE269007

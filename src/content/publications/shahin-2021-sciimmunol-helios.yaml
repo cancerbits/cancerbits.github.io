@@ -1,0 +1,15 @@
+section: other
+order: 16
+year: 2021
+authorsHtml: Shahin T, Kuehn HS, <u>Shoeb MR</u>, Gawriyski L, Giuliani S, Repiscak P, Hoeger B, Yüce Petronczki Ö, Bal SK, Zoghi S, Dmytrus J, Seruggia D, Castanon I, Rezaei N, Varjosalo M, <u>Halbritter F</u>, Rosenzweig SD, Boztug K
+title: Germline biallelic mutation affecting the transcription factor Helios causes pleiotropic defects of immunity
+venue: Science Immunology
+highlighted: true
+doi: https://doi.org/10.1126/sciimmunol.abe3981
+links:
+- label: DOI
+  url: https://doi.org/10.1126/sciimmunol.abe3981
+- label: Code
+  url: https://github.com/cancerbits/shahin2021_ikzf2
+- label: 'Data: EGAS00001005675'
+  url: https://ega-archive.org/studies/EGAS00001005675

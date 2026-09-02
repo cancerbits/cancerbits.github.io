@@ -1,0 +1,19 @@
+section: main
+order: 2
+year: 2025
+authorsHtml: <u>Shoeb MR</u>, Schinnerl D, Shaw LE, Farlik M, Strehl S, <u>Halbritter F<sup>#</sup></u>, Fortschegger K<sup>#</sup>
+title: A stem cell differentiation model reveals two alternative fates in CBFA2T3::GLIS2-driven acute megakaryoblastic leukemia initiation
+venue: Communications Biology
+highlighted: true
+doi: https://doi.org/10.1038/s42003-025-08730-4
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s42003-025-08730-4
+- label: Code
+  url: https://github.com/cancerbits/Shoeb2025_CG-AMKL
+- label: 'Data: GSE277004'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE277004
+- label: 'Interactive: Fig. 3'
+  url: https://vitessce.io/#?url=https://fh.ccri.at/zarr/srt_ctrl.h5ad.zarr/config.json
+- label: 'Interactive: Fig. 4'
+  url: https://vitessce.io/#?url=https://fh.ccri.at/zarr/srt_mk.h5ad.zarr/config.json

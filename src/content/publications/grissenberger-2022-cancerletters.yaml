@@ -1,0 +1,11 @@
+section: other
+order: 13
+year: 2022
+authorsHtml: Grissenberger S, Sturtzel C, Wenninger-Weinzierl A, Radic-Sarikas B, Scheuringer E, Bierbaumer L, Etienne V, Némati F, Pascoal S, Tötzl M, Tomazou E, Metzelder M, Putz EM, Decaudin D, Delattre O, Surdez D, Kovar H, <u>Halbritter F</u>, Distel M
+title: Automated compound testing in zebrafish xenografts identifies combined MCL-1 and BCL-XL inhibition to be effective against Ewing sarcoma
+venue: Cancer Letters
+highlighted: false
+doi: https://doi.org/10.1016/j.canlet.2022.216028
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.canlet.2022.216028

@@ -1,0 +1,19 @@
+section: main
+order: 9
+year: 2016
+authorsHtml: Mass E<sup>*</sup>, Ballesteros I<sup>*</sup>, Farlik M, <u>Halbritter F<sup>*</sup></u>, Günther P<sup>*</sup>, Crozet L, Jacome-Galarza CE, Händler K, Klughammer J, Kobayashi Y, Gomez-Perdiguero E, Schultze JL, Beyer M<sup>#</sup>, Bock C<sup>#</sup>, Geissmann F<sup>#</sup>
+title: Specification of tissue-resident macrophages during organogenesis
+venue: Science
+highlighted: true
+doi: https://doi.org/10.1126/science.aaf4238
+links:
+- label: DOI
+  url: https://doi.org/10.1126/science.aaf4238
+- label: Website
+  url: http://macrophage-development.computational-epigenetics.org/
+- label: 'Data: GSE81774'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81774
+- label: Press@CeMM
+  url: https://cemm.at/news/n/how-macrop
+- label: Press@MSKCC
+  url: https://www.mskcc.org/news/origin-story-finding-macrophage-development-challenges-long-held-view?_subsite=research-ski

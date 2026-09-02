@@ -1,0 +1,17 @@
+section: other
+order: 14
+year: 2022
+authorsHtml: Gogolou A, Souilhol C, Granata I, Wymeersch FJ, Manipur I, Wind M, Frith TJ, Guarini M, Bertero A, Bock C, <u>Halbritter F</u>, Takasato M, Guarracino MR, Tsakiridis A
+title: Early anteroposterior regionalisation of human neural crest is shaped by a pro-mesodermal factor
+venue: eLife
+highlighted: true
+doi: https://doi.org/10.7554/eLife.74263
+links:
+- label: DOI
+  url: https://doi.org/10.7554/eLife.74263
+- label: 'Data: GSE184227'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184227
+- label: 'Data: GSE184622'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184622
+- label: 'Data: GSE184620'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184620

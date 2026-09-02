@@ -1,0 +1,21 @@
+section: other
+order: 20
+year: 2021
+authorsHtml: Lazic D, Kromp F, Kirr M, Mivalt F, Rifatbegovic F, <u>Halbritter F</u>, Bernkopf M, Bileck A, Ussowicz M, Ambros IM, Ambros PF, Gerner C, Ladenstein R, Ostalecki C, Taschner-Mandl S
+title: Single-cell landscape of bone marrow metastases in human neuroblastoma unraveled by deep multiplex imaging
+venue: Cancers
+highlighted: true
+doi: https://doi.org/10.3390/cancers13174311
+links:
+- label: DOI
+  url: https://doi.org/10.3390/cancers13174311
+- label: 'Data: Imaging'
+  url: https://cloud.stanna.at/sharing/qiN0u9QPO
+- label: 'Data: PXD018267'
+  url: http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD018267
+- label: Docker
+  url: https://hub.docker.com/repository/docker/imageprocessing29092020/deepflex
+- label: Code
+  url: https://github.com/prepiscak/neuroblastoma_BM_infiltration
+- label: Press@CCRI
+  url: https://www.ccri.at/2021/09/02/bone-marrow-metastases-for-the-first-time-analyzed-cell-by-cell/

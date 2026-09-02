@@ -1,0 +1,13 @@
+section: main
+order: 8
+year: 2018
+authorsHtml: Allison TF, Andrews PW, Avior Y, Barbaric I, Benvenisty N, Bock C, Brehm J, Brüstle O, Damjanov I, Elefanty A, Felkner D, Gokhale PJ, <u>Halbritter F</u>, Healy LE, Hu TX, Knowles BB, Loring JF, Ludwig TE, Mayberry R, et al.
+title: Assessment of established techniques to determine developmental and malignant potential of human pluripotent stem cells
+venue: Nature Communications
+highlighted: true
+doi: https://doi.org/10.1038/s41467-018-04011-3
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s41467-018-04011-3
+- label: 'Data: GSE97964'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97964

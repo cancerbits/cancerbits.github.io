@@ -1,0 +1,12 @@
+title: Intra-tumor plasticity in LCH
+image: https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/9/10/10.1158_2159-8290.cd-19-0138/10/m_1406fig7.jpeg
+description: >-
+  Langerhans cell histiocytosis is an enigmatic neoplasm with highly
+  variable clinical presentation. Together with CeMM, we charted LCH at
+  single-cell resolution and unraveled an unexpected hierarchy.
+order: 6
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1158/2159-8290.CD-19-0138
+  - label: Get the code / data
+    url: http://lch-hierarchy.computational-epigenetics.org/

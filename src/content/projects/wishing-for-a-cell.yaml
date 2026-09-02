@@ -1,0 +1,12 @@
+title: Wishing for a cell
+image: /images/wishcell.png
+description: >-
+  Stem cells can be made to differentiate into any kind of cell in the lab.
+  Together with the Seruggia lab, we use chromatin approximation to find out
+  how to make specific cell types well.
+order: 1
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1093/nar/gkag124
+  - label: Get the code
+    url: https://github.com/cancerbits/montano_mueller2026_chromatin_approximation

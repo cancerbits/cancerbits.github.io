@@ -1,0 +1,13 @@
+section: main
+order: 12
+year: 2014
+authorsHtml: <u>Halbritter F</u>, Kousa AI, Tomlinson SR
+title: 'GeneProf data: A resource of curated, integrated and reusable high-throughput genomics experiments'
+venue: Nucleic Acids Research
+highlighted: true
+doi: https://doi.org/10.1093/nar/gkt966
+links:
+- label: DOI
+  url: https://doi.org/10.1093/nar/gkt966
+- label: Web service
+  url: http://www.geneprof.org/

@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageBanner from '../components/PageBanner.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+import ContactEmail from '../components/ContactEmail.astro';
+import { site } from '../data/site';
+
+const focusAreas = [
+  {
+    icon: '/images/devbio.svg',
+    heading: 'We trace (aberrant) changes in cells during development.',
+    background: 'Background: Hematopoiesis, immunity, and cancer',
+    refs: [
+      { label: 'Cell Stem Cell 2016', url: 'https://doi.org/10.1016/j.stem.2016.10.019', title: 'DNA Methylation Dynamics of Human Hematopoietic Stem Cell Differentiation' },
+      { label: 'Science 2016', url: 'https://doi.org/10.1126/science.aaf4238', title: 'Specification of tissue-resident macrophages during organogenesis' },
+      { label: 'Cancer Discov. 2019', url: 'https://doi.org/10.1158/2159-8290.CD-19-0138', title: 'Epigenomics and Single-Cell Sequencing Define a Developmental Hierarchy in Langerhans Cell Histiocytosis' },
+    ],
+  },
+  {
+    icon: '/images/regepi.svg',
+    heading: 'We map regulatory networks that shape cell identity.',
+    background: 'Background: Stem cell transcription factors',
+    refs: [
+      { label: 'Cell Stem Cell 2012', url: 'https://doi.org/10.1016/j.stem.2012.08.002', title: 'Esrrb Is a Direct Nanog Target Gene' },
+      { label: '2013', url: 'https://doi.org/10.1016/j.stem.2013.04.023', title: 'Reduced Oct4 Expression Directs a Robust Pluripotent State' },
+      { label: 'eLife 2017', url: 'https://doi.org/10.7554/eLife.27746', title: 'Distinct SoxB1 networks are required for naïve and primed pluripotency' },
+      { label: 'EMBO J. 2018', url: 'https://doi.org/10.15252/embj.201695476', title: 'Esrrb extinction triggers dismantling of naïve pluripotency' },
+    ],
+  },
+  {
+    icon: '/images/intana.svg',
+    heading: 'We develop tools that connect pieces of data into knowledge.',
+    background: 'Background: Wet- and dry-lab tools and resources',
+    refs: [
+      { label: 'Nat. Methods 2012', url: 'https://doi.org/10.1038/nmeth.1809', title: 'GeneProf: analysis of high-throughput sequencing experiments' },
+      { label: 'Nat. Biotechnol. 2016', url: 'https://doi.org/10.1038/nbt.3605', title: 'Quantitative comparison of DNA methylation assays' },
+      { label: 'Cell Stem Cell 2018', url: 'https://doi.org/10.1016/j.stem.2018.06.014', title: 'Functional Dissection of the Enhancer Repertoire in Human Embryonic Stem Cells' },
+    ],
+  },
+];
+
+const currentRefs = [
+  { label: 'Commun. Biol. 2025', url: 'https://doi.org/10.1038/s42003-025-08730-4', title: 'A stem cell differentiation model reveals two alternative fates in CBFA2T3::GLIS2-driven acute megakaryoblastic leukemia initiation' },
+  { label: 'Nat. Commun. 2024a', url: 'https://doi.org/10.1038/s41467-024-47945-7', title: 'A human neural crest model reveals the developmental impact of neuroblastoma-associated chromosomal aberrations' },
+  { label: 'Nat. Commun. 2024b', url: 'https://doi.org/10.1038/s41467-024-45802-1', title: 'Comparative transcriptomics coupled to developmental grading via transgenic zebrafish reporter strains' },
+  { label: 'Nucleic Acids Res. 2026', url: 'https://doi.org/10.1093/nar/gkag124', title: 'Directing stem cell differentiation by chromatin state approximation' },
+];
+---
+
+<BaseLayout>
+  <PageBanner title={site.title} subtitle={site.tagline} image="/images/banner1.png" />
+
+  <div class="mx-auto max-w-content px-4 py-10 sm:px-6 sm:py-14">
+    <p class="text-center text-lg text-ink-700">
+      We are a <a href="/people/">team</a> of computational and experimental biologists at
+      <a href="https://science.ccri.at/" target="_blank" rel="noopener noreferrer">St. Anna Children's Cancer Research Institute (CCRI)</a>.
+      It is our goal to understand how genetic changes disrupt cellular development and cause diseases like cancer. 
+	  By employing an integrative approach that combines stem cell biology with functional genomics, we strive to ultimately prevent these diseases.
+    </p>
+
+    <div class="mt-10 grid gap-6 sm:grid-cols-3">
+      {focusAreas.map((area) => (
+        <div class="rounded-xl border border-ink-100 bg-white p-6 text-center shadow-sm">
+          <img src={area.icon} alt="" class="mx-auto h-20 w-20" />
+          <h4 class="mt-4 text-base font-semibold text-ink-900">{area.heading}</h4>
+          <p class="mt-2 text-xs font-medium uppercase tracking-wide text-ink-400">{area.background}</p>
+          <p class="mt-2 text-sm text-ink-600">
+            {area.refs.map((r, i) => (
+              <>
+                <a href={r.url} title={r.title} target="_blank" rel="noopener noreferrer">{r.label}</a>
+                {i < area.refs.length - 1 ? '; ' : ''}
+              </>
+            ))}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-12 rounded-xl bg-brand-50 p-8 text-center">
+      <h4 class="text-xl font-semibold text-ink-900">
+        Our research currently focuses on understanding and modulating the earliest effects of cancer-linked
+        mutations on development, tumorigenicity, and plasticity in embryonal tumors.
+      </h4>
+      <p class="mt-4 text-ink-700">        
+        {currentRefs.map((r, i) => (
+          <>
+            {' '}
+            <a href={r.url} title={r.title} target="_blank" rel="noopener noreferrer">{r.label}</a>
+            {i < currentRefs.length - 1 ? ';' : ''}
+          </>
+        ))}
+      </p>
+      <img
+        src="/images/dev.png"
+        alt=""
+        class="mx-auto mt-6 max-w-full rounded-lg"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="mt-10 space-y-4 border-y border-ink-100 py-6 text-center text-sm text-ink-600">
+      <p>
+        <span class="mr-1 inline-block align-middle">📰</span>
+        Check out our latest pre-print:
+        <a href="https://doi.org/10.64898/2026.07.01.735834" target="_blank" rel="noopener noreferrer">Pasajlic, Plaschka, et al.</a>
+      </p>
+      <p>
+        <span class="mr-1 inline-block align-middle">ℹ️</span>
+        Find out <a href="/research/">more about our research here</a>! Do you have the know-how, creativity, and
+        passion to join the quest? <a href="/join/">We'd like to hear from you!</a>
+      </p>
+    </div>
+  </div>
+</BaseLayout>

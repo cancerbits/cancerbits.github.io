@@ -1,0 +1,12 @@
+title: Neutrophil dev across species
+image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-024-45802-1/MediaObjects/41467_2024_45802_Fig3_HTML.png?as=webp
+description: >-
+  Neutrophils are multifunctional immune cells involved in health and
+  disease. Together with the Distel lab at CCRI we juxtaposed neutrophil
+  maturation in zebrafish, mice, and humans.
+order: 3
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1038/s41467-024-45802-1
+  - label: Get the code / data
+    url: https://github.com/cancerbits/Kirchberger_Shoeb2024_neut

@@ -1,0 +1,12 @@
+title: Finding enhancers
+image: https://www.cell.com/cms/attachment/94c7d545-2d52-4b8e-a903-7009a3573322/fx1.jpg
+description: >-
+  Enhancers are genetic elements that regulate gene expression. Our study
+  in collaboration with Edinburgh and Rotterdam used a genome-wide assay to
+  explore enhancer activity in pluripotent stem cells.
+order: 7
+links:
+  - label: Read the paper
+    url: https://doi.org/10.1016/j.stem.2018.06.014
+  - label: Get the code / data
+    url: http://hesc-enhancers.computational-epigenetics.org/

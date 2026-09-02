@@ -1,0 +1,17 @@
+section: other
+order: 7
+year: 2025
+authorsHtml: Ressler JM, <u>Plaschka M</u>, Silmbrod R, Bachmayr V, Shaw LE, Silly T, Zila N, Stepan A, Kusienicka A, Tschandl P, Tittes J, Roka F, Haslik W, Petzelbauer P, Koenig F, Kunstfeld R, Farlik M, <u>Halbritter F</u>, Weninger W, Christoph Hoeller C
+title: 'Efficacy and tolerability of neoadjuvant therapy with Talimogene laherparepvec in cutaneous basal cell carcinoma: a phase II trial (NeoBCC trial)'
+venue: Nature Cancer
+highlighted: true
+doi: https://doi.org/10.1038/s43018-024-00879-x
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s43018-024-00879-x
+- label: Code
+  url: https://github.com/cancerbits/ressler2024_neobcc
+- label: 'Data: GSE268728'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268728
+- label: 'Data: EGAD50000000371'
+  url: https://ega-archive.org/datasets/EGAD50000000371

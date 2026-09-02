@@ -1,0 +1,13 @@
+section: other
+order: 29
+year: 2013
+authorsHtml: Karwacki-Neisius V, Göke J, Osorno R, <u>Halbritter F</u>, Ng JH, Weiße AY, Wong FCK, Gagliardi A, Mullin NP, Festuccia N, Colby D, Tomlinson SR, Ng HH, Chambers I
+title: Reduced Oct4 expression directs a robust pluripotent state with distinct signaling activity and increased enhancer occupancy by Oct4 and Nanog
+venue: Cell Stem Cell
+highlighted: true
+doi: https://doi.org/10.1016/j.stem.2013.04.023
+links:
+- label: DOI
+  url: https://doi.org/10.1016/j.stem.2013.04.023
+- label: 'Data: E-MTAB-1619'
+  url: https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1619/

@@ -1,0 +1,13 @@
+section: other
+order: 23
+year: 2020
+authorsHtml: Cinquina V, Calvigioni D, Farlik M, <u>Halbritter F</u>, Fife-Gernedl V, Shirran SL, Fuszard MA, Botting CH, Poullet P, Piscitelli F, Máté Z, Szabó G, Yanagawa Y, Kasper S, Di Marzo V, Mackie K, McBain CJ, Bock C, Keimpema E, et al.
+title: Life-long epigenetic programming of cortical architecture by maternal 'Western' diet during pregnancy
+venue: Molecular Psychiatry
+highlighted: true
+doi: https://doi.org/10.1038/s41380-019-0580-4
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s41380-019-0580-4
+- label: 'Data: GSE140011'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140011

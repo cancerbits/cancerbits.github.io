@@ -1,0 +1,17 @@
+section: main
+order: 10
+year: 2016
+authorsHtml: Bock C, <u>Halbritter F</u>, Carmona FJ, Tierling S, Datlinger P, Assenov Y, Berdasco M, Bergmann AK, Booher K, Busato F, Campan M, Dahl C, Dahmcke CM, Diep D, Fernández AF, Gerhauser C, Haake A, Heilmann K, Holcomb T, et al.
+title: Quantitative comparison of DNA methylation assays for biomarker development and clinical applications
+venue: Nature Biotechnology
+highlighted: true
+doi: https://doi.org/10.1038/nbt.3605
+links:
+- label: DOI
+  url: https://doi.org/10.1038/nbt.3605
+- label: Code
+  url: https://github.com/epigen/methylation-biomarker-benchmark
+- label: 'Data: GSE77965'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77965
+- label: Press@CeMM
+  url: https://cemm.at/news/n/epigenetic

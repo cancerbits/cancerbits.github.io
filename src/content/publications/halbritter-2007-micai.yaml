@@ -1,0 +1,11 @@
+section: main
+order: 14
+year: 2007
+authorsHtml: <u>Halbritter F</u>, Geibel P
+title: Learning Models of Relational MDPs Using Graph Kernels
+venue: 'MICAI 2007: Advances in Artificial Intelligence. Springer'
+highlighted: false
+doi: https://doi.org/10.1007/978-3-540-76631-5_39
+links:
+- label: DOI
+  url: https://doi.org/10.1007/978-3-540-76631-5_39

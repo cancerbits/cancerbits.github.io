@@ -1,0 +1,19 @@
+section: main
+order: 3
+year: 2024
+authorsHtml: Saldana-Guerrero IM<sup>*</sup>, <u>Montano-Gutierrez LF<sup>*</sup></u>, Boswell K, <u>Hafemeister C</u>, Poon E, Shaw LE, Stavish D, Lea RA, <u>Wernig-Zorc S</u>, Bozsaky E, Fetahu IS, Zoescher P, Pötschger U, Bernkopf M, Wenninger-Weinzierl A, Sturtzel C, Souilhol C, Tarelli S, <u>Shoeb MR</u>, Bozatzi P, Rados M, Guarini M, Buri MC, Weninger W, Putz EM, Huang M, Ladenstein R, Andrews PW, Barbaric I, Cresswell GD, Bryant HE, Distel M, Chesler L, Taschner-Mandl S, Farlik M, Tsakiridis A<sup>#</sup>, <u>Halbritter F<sup>#</sup></u>
+title: A human neural crest model reveals the developmental impact of neuroblastoma-associated chromosomal aberrations
+venue: Nature Communications
+highlighted: true
+doi: https://doi.org/10.1038/s41467-024-47945-7
+links:
+- label: DOI
+  url: https://doi.org/10.1038/s41467-024-47945-7
+- label: Code
+  url: https://github.com/cancerbits/saldana_montano2024_ncnb
+- label: Code Archive
+  url: https://zenodo.org/records/10891507
+- label: 'Data: GSE219153'
+  url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219153
+- label: Interactive Data @R2
+  url: http://r2platform.com/halbritter24/

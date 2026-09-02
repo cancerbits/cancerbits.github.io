@@ -1,0 +1,64 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import FundingCard from '../../components/FundingCard.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { getCollection } from 'astro:content';
+
+const funding = (await getCollection('funding')).sort((a, b) => a.data.order - b.data.order);
+const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<PageLayout
+  title="Research & Funding"
+  bannerImage="/images/banner3.png"
+  description="Our research goals, significance, current funding, and highlighted past projects."
+>
+  <h2 class="text-center text-2xl font-semibold text-ink-900">
+    Taking apart childhood cancer <span class="font-mono text-brand-600">bit</span> by
+    <span class="font-mono text-brand-600">bit</span>
+  </h2>
+
+  <div class="mt-10">
+    <h2 class="text-xl font-semibold text-ink-900 section-heading">Goals</h3>
+    <p class="mt-3 text-ink-700">
+      It is our goal to understand how genetic changes trigger aberrant cellular development. To this end, we track development
+	  of cells in tumors and diseased tissues, and reconstruct these processes in experimental models. We then characterize
+	  (epi)genomic changes that occur in time and space, aiming to decipher the syntax and semantics of development.
+      We combine developmental and cancer biology with high-throughput functional genomics assays (*-seq) and computational analysis.
+	  We like to collaborate and partner with research labs at CCRI and around the world to achieve these aims.
+    </p>
+
+    <div class="my-8 flex items-center justify-center gap-4 text-3xl text-ink-400">
+      <img src="/images/devbio.svg" alt="Developmental biology" class="h-16 w-16" />
+      <span>+</span>
+      <img src="/images/regepi.svg" alt="Regulatory epigenomics" class="h-16 w-16" />
+      <span>+</span>
+      <img src="/images/intana.svg" alt="Integrative analysis" class="h-16 w-16" />
+      <span>=</span>
+      <span class="text-brand-600">!</span>
+    </div>
+
+    <h2 class="text-xl font-semibold text-ink-900 section-heading">Significance</h3>
+    <p class="mt-3 text-ink-700">
+      Cancer is a disruption of orderly developmental processes – cancerous cells either fail to reach the
+      destination of their developmental circuit or they revert after they had seemingly completed the track.
+      By achieving a thorough understanding in individual cases and abstracting the findings in quantitative
+      models, we help to elucidate new avenues for detecting (diagnosis), projecting (prognosis), and
+      intercepting (therapy) with aberrant development.
+    </p>
+  </div>
+
+  <h2 class="mt-16 text-2xl font-semibold text-ink-900 section-heading">Current funding</h2>
+  <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {funding.map((f) => (
+      <FundingCard funding={f.data} />
+    ))}
+  </div>
+
+  <h2 class="mt-16 text-2xl font-semibold text-ink-900 section-heading">Examples of past projects</h2>
+  <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {projects.map((p) => (
+      <ProjectCard project={p.data} />
+    ))}
+  </div>
+</PageLayout>
