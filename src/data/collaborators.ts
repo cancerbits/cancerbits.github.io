@@ -14,12 +14,6 @@ export const collaborators: Collaborator[] = [
     topic: 'Developmental biology',
   },
   {
-    name: 'Christa Buecker',
-    url: 'https://www.maxperutzlabs.ac.at/research/research-groups/buecker',
-    affiliation: 'MPL',
-    topic: 'Enhancers & ESCs',
-  },
-  {
     name: 'Julie Caramel',
     url: 'https://www.crcl.fr/en/tumor-escape-resistance-immunity-department/cancer-cell-plasticity-in-melanoma/',
     affiliation: 'CRCL',
@@ -44,12 +38,6 @@ export const collaborators: Collaborator[] = [
     topic: 'Genomics & immunity',
   },
   {
-    name: 'Caroline Hutter',
-    url: 'https://science.ccri.at/research/research-areas/langerhans-cell-histiocytosis-lch/lch-biology/',
-    affiliation: 'CCRI',
-    topic: 'Langerhans cell histiocytosis',
-  },
-  {
     name: 'Cornelia Kasper',
     url: 'https://boku.ac.at/personen/person/9C54422A8570A040/',
     affiliation: 'BOKU',
@@ -68,10 +56,10 @@ export const collaborators: Collaborator[] = [
     topic: 'Embryonic stem cells',
   },
   {
-    name: 'Martin Metzelder',
-    url: 'https://www.meduniwien.ac.at/hp/kinderchirurgie/wissenschaft-forschung/',
-    affiliation: 'MedUni Vienna',
-    topic: 'Pediatric solid tumours',
+    name: 'Renal Tumors Study Group (SIOP-RTSG)',
+    url: 'https://siop-rtsg.org/',
+    affiliation: 'International Society for Pediatric Oncology',
+    topic: 'Nephroblastoma',
   },
   {
     name: 'Sabine Strehl',
@@ -96,5 +84,5 @@ export const collaborators: Collaborator[] = [
     url: 'https://www.sheffield.ac.uk/cscb/tsakiridis',
     affiliation: 'University of Sheffield',
     topic: 'Developmental biology',
-  },
+  }
 ];
